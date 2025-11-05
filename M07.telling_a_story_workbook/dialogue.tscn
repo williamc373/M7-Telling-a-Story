@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b8o5qo3on08yk"]
+[gd_scene load_steps=9 format=3 uid="uid://b8o5qo3on08yk"]
 
 [ext_resource type="Shader" uid="uid://cs15e2hgd2lan" path="res://assets/sliding_background.gdshader" id="1_758ep"]
 [ext_resource type="Theme" uid="uid://drays61pfu7xc" path="res://lessons/main_theme.tres" id="1_q2h7b"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://cvyjtb2pbe8s4" path="res://dialogue.gd" id="2_iq77p"]
 [ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="3_q2h7b"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="4_hoxo3"]
+[ext_resource type="AudioStream" uid="uid://bafjgt7eu3x5a" path="res://assets/talking_synth.ogg" id="7_iqg0b"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_iq77p"]
 shader = ExtResource("1_758ep")
@@ -72,6 +73,8 @@ text = "Hello
 
 "
 fit_content = true
+visible_characters = 0
+visible_ratio = 0.0
 
 [node name="NextButton" type="Button" parent="."]
 unique_name_in_owner = true
@@ -89,3 +92,7 @@ grow_horizontal = 0
 grow_vertical = 0
 text = "next
 "
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("7_iqg0b")
