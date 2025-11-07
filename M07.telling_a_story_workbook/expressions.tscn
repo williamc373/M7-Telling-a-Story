@@ -61,7 +61,6 @@ offset_left = 24.0
 offset_top = 9.0
 offset_right = 374.0
 offset_bottom = 425.0
-metadata/_edit_group_ = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Body/Expression/VBoxContainer"]
 layout_mode = 2
