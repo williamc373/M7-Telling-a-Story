@@ -78,9 +78,8 @@ offset_left = 68.079956
 offset_top = 67.56
 offset_right = -37.400146
 offset_bottom = -63.840027
-text = "Hello
-
-"
+bbcode_enabled = true
+text = "[i]hello[/i] [b]world[/b]"
 fit_content = true
 visible_characters = 0
 visible_ratio = 0.0

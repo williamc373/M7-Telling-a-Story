@@ -18,7 +18,7 @@ var bodies := {
 var dialogue_items: Array[Dictionary] = [
 	{
 		"expression": expressions["regular"],
-		"text": "I've been studying arrays and dictionaries lately.",
+		"text": "I've been learning about [wave]arrays and dictionaries[/wave] lately.",
 		"character": bodies["sophia"],
 	},
 	{
@@ -28,7 +28,7 @@ var dialogue_items: Array[Dictionary] = [
 	},
 	{
 		"expression": expressions["sad"],
-		"text": "Well... it's a little complicated!",
+		"text": "Well... it's a little [shake]complicated[/shake]!",
 		"character": bodies["sophia"],
 	},
 	{
@@ -53,7 +53,7 @@ var dialogue_items: Array[Dictionary] = [
 	},
 	{
 		"expression": expressions["happy"],
-		"text": "Thanks for the encouragement. Time to LEARN!!!",
+		"text": "Thanks for the encouragement. Time to [tornado freq=3.0] [rainbow val=1.0]LEARN!!![/rainbow][/tornado]",
 		"character": bodies["sophia"],
 	},
 ]
